@@ -5,14 +5,14 @@
 #include <stdio.h>
 
 int main(void) {
-	float a,b;
+	int a,b;
 	float c;
 	
 	printf("분자를 입력하세요 : ");
-	scanf("%f", &a);
+	scanf("%d", &a);
 	
 	printf("분모를 입력하세요 : ");
-	scanf("%f", &b);
+	scanf("%d", &b);
 	
 	c = (float)a/b;
 	
