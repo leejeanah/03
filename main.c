@@ -6,13 +6,11 @@
 
 int main(void) {
 	char text;
-	int i;
 	
-	printf("input a numbr : ");
+	printf("input a character : ");
 	scanf("%c", &text);
 	
-	i = text- '0';
-	printf("The input number is %i\n", i);
+	printf("the next charater of %c (%d) is %c (%d)\n", text, text, text+1, text+1 );
 	
 	return 0;
 }
